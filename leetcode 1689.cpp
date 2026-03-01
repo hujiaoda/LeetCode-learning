@@ -16,7 +16,7 @@ int poorsolve(string n) {//我第一次做的时候用的方法,拉完了
 				n[i]--;
 			}
 			if (n[i] != '0') {
-				key = 1;
+				key = 0;
 			}
 		}
 		count++;
